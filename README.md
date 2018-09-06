@@ -7,7 +7,7 @@ This program was written to run with Python 3.6.3 (with Anaconda). The only exte
 Once installed, the program can be run with "<code>python3 sampler.py input.txt output.txt n_results</code>".
 
 ## Problem 
-Identify valid regions of high-dimensional hypercube with hidden constraints. 
+Identify valid regions of high-dimensional unit hypercube with hidden constraints. 
 
 ## Solution 
 My solution to this problem works in three main steps: finding edges of the valid domain, examining the interior of the domain, and selecting representative points. The solution produces valid output for all of the example cases provided, as well as a test case I wrote myself that contained both linear and polynomial separators. In terms of computational complexity, the edge detection and interior examination are O(2^d * n) and the identification of representative points is O(n^2). The program consistently executed in under one minute on my computer, with test cases of lower dimensionality completing more quickly than those of higher dimensionality. 
