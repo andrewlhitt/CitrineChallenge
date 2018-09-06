@@ -2,7 +2,9 @@
 Submission for the Citrine Coding Challenge
 
 ## Installation
-This program was written to run with Python 3.6.3 (with Anaconda). The only external dependency, other than the provided Constraint file, is NumPy, which can be installed with “pip3 install numpy” (or other Python library install processes). 
+This program was written to run with Python 3.6.3 (with Anaconda). The only external dependency, other than the provided Constraint file, is NumPy, which can be installed with “<code>pip3 install numpy</code>” (or other Python library install processes). 
+
+Once installed, the program can be run with "<code>python3 sampler.py input.txt output.txt n_results</code>".
 
 ## Problem 
 Identify valid regions of high-dimensional hypercube with hidden constraints. 
